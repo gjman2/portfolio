@@ -1,0 +1,38 @@
+@import url("https://fonts.googleapis.com/css2?family=Bitcount:wght@100..900&display=swap");
+@import "tailwindcss";
+
+@theme {
+  --font-bitcount: "Bitcount", system-ui;
+}
+
+header ul li {
+  @apply px-2;
+}
+
+.bg-primary {
+  background: rgb(128, 128, 133);
+}
+
+.bg-secondary {
+  background: #000000;
+}
+
+.mobile-nav {
+  @apply fixed top-10 left-0 bg-gray-800 w-full h-1/4;
+}
+
+.mobile-nav li {
+  @apply w-full h-full text-center border-b-2;
+}
+
+.project-desc {
+  @apply absolute left-0 right-0 bottom-0 top-0 opacity-0 duration-500 hover:opacity-100;
+}
+
+.btn {
+  @apply px-5 py-2 font-bold border-2 border-white rounded;
+}
+
+html {
+  scroll-behavior: smooth;
+}
