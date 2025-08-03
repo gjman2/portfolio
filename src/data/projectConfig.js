@@ -14,14 +14,14 @@ const data = {
       title: "Weather App",
       description:
         "A simple and responsive weather application built using React.js and Tailwind CSS. The app fetches real-time weather data from a public API (such as OpenWeatherMap) based on user input for any city",
-      link: "https://github.com/gjman2",
+      link: "https://github.com/gjman2/my-weather",
     },
     {
       image: myWeatherImg,
       title: "Portfolio",
       description:
         "A personal portfolio website developed using React.js and styled with Tailwind CSS. The website showcases my background, technical skills, personal projects, and contact information.",
-      link: "https://github.com/gjman2",
+      link: "https://github.com/gjman2/portfolio",
     },
   ],
 };
