@@ -1,5 +1,6 @@
 import myWeatherImg from "../assets/my_weather.png";
 import snackOrderingAppImg from "../assets/snack_ordering_app_mockup.png";
+import portfolioImg from "../assets/data.jpeg";
 const data = {
   projects: [
     {
@@ -17,7 +18,7 @@ const data = {
       link: "https://github.com/gjman2/my-weather",
     },
     {
-      image: myWeatherImg,
+      image: portfolioImg,
       title: "Portfolio",
       description:
         "A personal portfolio website developed using React.js and styled with Tailwind CSS. The website showcases my background, technical skills, personal projects, and contact information.",
