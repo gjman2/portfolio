@@ -1,6 +1,7 @@
 import myWeatherImg from "../assets/my_weather.png";
 import snackOrderingAppImg from "../assets/snack_ordering_app_mockup.png";
 import portfolioImg from "../assets/data.jpeg";
+import contactManagerImg from "../assets/contact_manager.png";
 const data = {
   projects: [
     {
@@ -16,6 +17,13 @@ const data = {
       description:
         "A simple and responsive weather application built using React.js and Tailwind CSS. The app fetches real-time weather data from a public API (such as OpenWeatherMap) based on user input for any city",
       link: "https://github.com/gjman2/my-weather",
+    },
+    {
+      image: contactManagerImg,
+      title: "Contact Manager App",
+      description:
+        "A simple contact management application built with React.js, React Router, and Tailwind CSS. The app allows users to create, view and delete contact information in an organized interface.",
+      link: "https://github.com/gjman2/contact-manager",
     },
     {
       image: portfolioImg,
