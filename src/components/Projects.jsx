@@ -33,16 +33,18 @@ export default function Projects() {
                 <p className="text-center text-sm break-words mb-4">
                   {item.description}
                 </p>
-                <div className="flex justify-center">
-                  <a
-                    className="btn"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    href={item.link}
-                  >
-                    View Project
-                  </a>
-                </div>
+                {item.type === "internal" && (
+                  <div className="flex justify-center">
+                    <a
+                      className="btn"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      href={item.link}
+                    >
+                      View Project
+                    </a>
+                  </div>
+                )}
               </div>
             </div>
           ))}

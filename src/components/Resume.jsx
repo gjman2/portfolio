@@ -3,7 +3,7 @@ import resumeConfig from "../data/resumeConfig.js";
 export default function Resume() {
   return (
     <section
-      className="flex flex-col md:flex-row bg-secondary px-5"
+      className="flex flex-col md:flex-row bg-secondary px-5 md:gap-10"
       id="resume"
     >
       <div className="py-5 md:w-1/2 flex flex-row justify-center md:justify-end">
