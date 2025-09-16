@@ -26,7 +26,7 @@ export default function Hero() {
         </div>
       </div>
       <img
-        className="md:w-1/3 rounded-b-full rounded-t-full"
+        className="w-[200px] md:w-[280px] rounded-full mx-auto md:mx-0"
         src={heroConfig.image}
         alt="Sri Gana"
       />
