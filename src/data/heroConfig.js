@@ -1,4 +1,4 @@
-import heroImg from "../assets/Hero.jpg";
+import heroImg from "../assets/hero.jpg";
 import {
   AiOutlineInstagram,
   AiOutlineLinkedin,
